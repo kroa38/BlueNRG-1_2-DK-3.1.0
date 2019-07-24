@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2054051326</fileChecksum>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\context_switch.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\miscutil.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\osal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\sleep.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_adc.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\Release\Obj\miscutil.o</file>
+            <file>$PROJ_DIR$\Release\Obj\osal.o</file>
+            <file>$PROJ_DIR$\Release\Obj\sleep.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_adc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_dma.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_flash.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_I2C.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_I2C.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h</file>
+            <file>$PROJ_DIR$\..\..\inc\Beacon_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_it.h</file>
+            <file>$PROJ_DIR$\Release\Obj\TMP117.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\TMP117.h</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_it.pbi</file>
+            <file>$PROJ_DIR$\Release\Exe\BLE_Beacon.out</file>
+            <file>$PROJ_DIR$\Release\Exe\BLE_Beacon.hex</file>
+            <file>$PROJ_DIR$\Release\Obj\BLE_Beacon_main.pbi</file>
+            <file>$PROJ_DIR$\BlueNRG2.icf</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\clock.h</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\TSL2591.h</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\miscutil.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\sleep.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_pka.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_mft.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\osal.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_spi.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_sysCtrl.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_uart.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_rtc.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\osal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Release\Obj\clock.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_sysCtrl.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Config.o</file>
+            <file>$PROJ_DIR$\Release\Obj\stack_user_cfg.o</file>
+            <file>$PROJ_DIR$\Release\Obj\system_bluenrg1.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Led.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_wdg.o</file>
+            <file>$PROJ_DIR$\Release\Obj\misc.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Com.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Config.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Led.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\stack_user_cfg.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\system_bluenrg1.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\TSL2591.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\TSL2591.o</file>
+            <file>$PROJ_DIR$\Release\Obj\TSL2591.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\clock.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$PROJ_DIR$\Release\Obj\stack_user_cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\asm.h</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_it.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\bme680.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\bme680_defs.h</file>
+            <file>$PROJ_DIR$\Release\Obj\BLE_Beacon_main.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\system_bluenrg1.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Button.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\bme680.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\bme680.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\bme680.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Button.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Button.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_uart.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_wdg.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Com.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BLE_Beacon_main.o</file>
+            <file>$PROJ_DIR$\Release\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_it.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_rtc.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_sysCtrl.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_gpio.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_i2c.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_mft.o</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_pka.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\sleep.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_mft.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_pka.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\crash_handler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\miscutil.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\hal_types.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h</file>
+            <file>$PROJ_DIR$\Release\Obj\BLE_Beacon.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cm0.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
+            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
+            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
+            <file>$PROJ_DIR$\Release\Obj\miscutil.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\osal.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_mft.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_dma.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_i2c.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_flash.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\sleep.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_rtc.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_spi.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_gpio.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_adc.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_pka.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\context_switch.o</file>
+            <file>$PROJ_DIR$\Release\Obj\TMP117.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\TMP117.o</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Led.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Com.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\BlueNRG1_wdg.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_Config.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\misc.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\SDK_EVAL_I2C.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_SPI.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_events.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gatt_server.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\Release\List\BLE_Beacon.map</file>
+            <file>$PROJ_DIR$\Release\Obj\clock.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 31 199</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\clock.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138 123 132 23 38 39 135 118 17 15 20 131 37 127 133 134 124 137 177 19 57 139 18 22 125 126</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\context_switch.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 83</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\miscutil.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138 57 127 23 19 130 15 20 131 37 139 18 129 38 177 132 133 134 135 128 55 56</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 130 128 129 55 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\osal.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132 55 19 56 37 57 139 129 58</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 19 37 132 57 139 55 56 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\sleep.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 38 23 17 37 135 118 129 123 139 19 60 115 130 132 116 138 131 127 133 134 124 137 55 56 15 20 177 18 22 125 126 128</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 19 37 132 57 139 60 55 116 129 56 38 15 138 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 115 130 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 20 23 132 135 38 138 131 37 127 133 134 117 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\BLE_Beacon.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34 100 10 11 12 105 106 102 107 108 54 51 52 53 68 94 200 180 161 162 69 7 8 95 70 63 13 66 9 64 65 182 76 35 80 79 198</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138 131 37 127 133 134 38 15 20 132 135 23 137 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 138 131 37 127 133 134 15 20 132 135 23 22 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 138 131 37 127 133 134 15 20 132 135 23 124 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 132 15 20 135 38 138 131 37 127 133 134 118 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138 23 132 38 135 15 20 131 37 127 133 134 119 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127 15 20 38 177 57 138 58 23 19 139 37 18 120 131 132 133 134 135</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138 131 37 127 133 134 38 15 20 132 135 23 121 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 132 15 20 135 38 138 131 37 127 133 134 122 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 15 20 131 37 127 133 134 138 132 135 23 126 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 132 38 138 135 15 20 131 37 127 133 134 125 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 20 131 37 127 133 134 38 138 132 135 23 59 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 20 131 37 127 133 134 38 138 132 135 23 123 177 19 57 139 18</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 38 37 23 90 139 190 134 124 196 57 55 15 20 177 137 160 87 39 86 132 17 138 131 127 133 135 118 123 113 85 18 22 125 126 114 191</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 87 23 19 37 132 57 139 86 55 196 38 15 138 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 114 113 90 191 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123 138 17 132 23 38 114 135 118 191 190 15 20 131 37 127 133 134 124 137 196 177 19 57 139 18 22 125 126 160 113 90</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 113 196 90 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 81 17 138 135 118 191 23 19 132 123 114 36 193 190 15 20 177 127 133 134 124 137 196 37 55 113 131 57 139 18 22 125 126 160 90</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 114 196 90 191 36 55 193 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 17 139 138 125 190 23 19 18 22 38 113 15 20 177 57 127 137 126 160 90 131 132 133 134 135 124 118 123 114 196 191</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 114 113 196 90 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190 118 135 191 15 20 38 132 23 123 114 17 138 131 37 127 133 134 124 137 196 177 19 57 139 18 22 125 126 160 113 90</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 114 113 90 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 137 38 190 15 20 131 37 127 133 134 124 196 17 138 132 135 23 118 123 114 191 90 177 19 57 139 18 22 125 126 160 113</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 114 113 196 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 129 190 125 38 17 196 132 23 18 22 29 36 19 55 57 139 56 15 20 177 127 138 137 126 114 191 131 133 134 135 124 118 123 160 113 90</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29 36 19 37 132 57 139 55 129 56 23 196 38 15 138 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 114 113 90 191</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116 127 133 38 19 129 15 20 90 139 39 37 177 134 124 57 6 201 190 23 137 160 43 55 132 36 196 56 17 138 131 135 118 123 113 60 18 22 125 126 114 191</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 19 37 132 57 139 55 116 43 36 129 56 23 6 201 196 38 15 138 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 190 160 114 113 90 191 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132 192 23 134 37 110 19 57 139</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 23 19 37 132 57 139 134 192</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133 56 127 38 23 134 15 20 177 123 128 19 37 22 130 126 138 132 135 55 131 57 139 18 129</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 22 123 130 128 129 55 56 126</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110 37 38 127 109 25 15 20 129 16 85 131 126 114 17 19 27 115 39 132 138 137 112 191 194 36 201 111 190 29 43 55 57 139 56 18 22 125 197 24 26 196 23 87 86 6 177 133 134 135 124 118 123 21 195 160 113 90 192</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 19 37 132 57 139 55 129 56 27 38 15 138 23 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 16 26 110 109 21 24 197 112 111 195 115 190 160 114 113 196 90 191 25 192 194 39 29 85 87 86 43 6 201</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22 197 18 23 19 39 139 37 125 38 110 26 16 15 20 177 57 127 138 137 126 109 112 17 111 131 132 133 134 135 124 118 123 21 24 195 27</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27 38 15 138 23 19 37 132 57 139 131 127 133 177 20 18 134 135 17 22 124 137 118 125 126 123 16 26 110 109 21 24 197 112 111 195 39</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Use_OTA_ServiceManager</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\context_switch.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\miscutil.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\osal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\sleep.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_adc.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h</file>
+            <file>$PROJ_DIR$\..\..\inc\Beacon_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_it.h</file>
+            <file>$PROJ_DIR$\BlueNRG2.icf</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Config.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Com.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_wdg.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\OTA_btl.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\misc.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Button.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_sysCtrl.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_rtc.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_pka.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_mft.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\sleep.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\osal.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_I2C.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\miscutil.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_I2C.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\clock.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\List\BLE_Beacon_Use_OTA_ServiceManager.map</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_wdg.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\miscutil.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_dma.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\misc.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_adc.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_i2c.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BLE_Beacon_main.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_it.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_flash.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\OTA_btl.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_spi.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_sysCtrl.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Button.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_uart.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\sleep.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\system_bluenrg1.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\miscutil.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Com.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Config.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_mft.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_gpio.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Led.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\osal.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\context_switch.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_pka.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\clock.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\stack_user_cfg.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_rtc.o</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\clock.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\osal.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\sleep.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_adc.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_dma.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_flash.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_gpio.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_i2c.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_mft.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_pka.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_rtc.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_spi.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\clock.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\osal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\asm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_sysCtrl.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_uart.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_wdg.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\OTA_btl.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Button.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Com.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Config.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Led.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\stack_user_cfg.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\system_bluenrg1.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BLE_Beacon_main.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_it.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Exe\BLE_Beacon_Use_OTA_ServiceManager.out</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Exe\BLE_Beacon_Use_OTA_ServiceManager.hex</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_I2C.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Led.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\stack_user_cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\system_bluenrg1.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BLE_Beacon_main.__cstat.et</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_it.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\sleep.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_mft.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_pka.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\crash_handler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\miscutil.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\hal_types.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cm0.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\src\OTA_btl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
+            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
+            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_SPI.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_events.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_I2C.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gatt_server.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 46 114</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\clock.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150 136 145 15 88 89 148 131 9 7 12 144 87 140 146 147 137 149 177 11 92 151 10 14 138 139</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\context_switch.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 99</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\miscutil.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150 92 140 15 11 143 7 12 144 87 151 10 142 88 177 145 146 147 148 141 90 91</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 143 141 142 90 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\osal.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145 90 11 91 87 92 151 142 93</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142 11 87 145 92 151 90 91 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\sleep.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 88 15 9 87 148 131 142 136 151 11 95 128 143 145 129 150 144 140 146 147 137 149 90 91 7 12 177 10 14 138 139 141</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 11 87 145 92 151 95 90 129 142 91 88 7 150 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 128 143 141</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7 12 15 145 148 88 150 144 87 140 146 147 130 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Use_OTA_ServiceManager\Exe\BLE_Beacon_Use_OTA_ServiceManager.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 20 53 51 49 55 67 52 54 66 71 74 57 58 60 47 72 70 171 172 50 48 69 56 59 64 65 44 68 61 73 62 21 97 96 186</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150 144 87 140 146 147 88 7 12 145 148 15 149 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88 150 144 87 140 146 147 7 12 145 148 15 14 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88 150 144 87 140 146 147 7 12 145 148 15 137 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 145 7 12 148 88 150 144 87 140 146 147 131 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150 15 145 88 148 7 12 144 87 140 146 147 132 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140 7 12 88 177 92 150 93 15 11 151 87 10 133 144 145 146 147 148</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150 144 87 140 146 147 88 7 12 145 148 15 134 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 145 7 12 148 88 150 144 87 140 146 147 135 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88 7 12 144 87 140 146 147 150 145 148 15 139 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 145 88 150 148 7 12 144 87 140 146 147 138 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7 12 144 87 140 146 147 88 150 145 148 15 94 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7 12 144 87 140 146 147 88 150 145 148 15 136 177 11 92 151 10</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\src\OTA_btl.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183 12 7 131 122 88 93 136 177 140 146 147 10 8 6 137 149 15 11 145 148 125 184 178 9 187 124 182 14 138 139 150 144 87 92 151 123 185 16 18 127 179 13 170 126 100</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 14 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 137 149 131 138 139 136 124 123 183 8 18 122 13 16 185 125 178 170 127 126 184 100 179 93 182 6 187</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139 9 7 12 178 140 88 170 177 92 150 149 100 15 11 151 87 10 14 138 126 127 144 145 146 147 148 137 131 136 184 179</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 178 170 126 184 100 179</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 88 98 9 150 149 100 140 139 170 22 181 178 7 12 144 87 151 10 14 138 126 90 15 177 11 145 146 147 148 137 131 136 127 184 179</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 178 170 127 184 100 179 22 90 181 98</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88 9 150 148 131 179 178 145 15 136 127 7 12 144 87 140 146 147 137 149 184 177 11 92 151 10 14 138 139 170 126 100</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 178 170 127 126 184 100 179</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149 150 100 177 88 92 9 140 139 170 178 7 12 15 11 151 87 10 14 138 126 184 144 145 146 147 148 137 131 136 127 179</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 178 170 127 126 100 179</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138 9 151 87 178 150 15 11 10 14 88 126 7 12 177 92 140 149 139 170 100 144 145 146 147 148 137 131 136 127 184 179</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 178 170 127 126 184 179</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145 180 15 147 87 123 11 92 151</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123 15 11 87 145 92 151 147 180</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146 91 140 88 15 147 7 12 177 136 141 11 87 14 143 139 150 145 148 90 144 92 151 10 142</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 14 136 143 141 142 90 91 139</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145 147 137 16 88 17 140 146 127 8 87 15 11 149 18 123 178 19 128 89 7 12 177 148 131 136 13 179 9 142 124 182 90 92 151 91 150 144 10 14 138 139 122 185 125 184 180 22 183 170 126 100</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 11 87 145 92 151 90 142 91 19 88 7 150 15 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 8 18 123 122 13 16 185 125 124 183 128 178 170 127 126 184 100 179 17 180 182 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14 185 10 15 11 89 151 87 138 88 123 18 8 7 12 177 92 140 150 149 139 122 125 9 124 144 145 146 147 148 137 131 136 13 16 183 19</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 88 7 150 15 11 87 145 92 151 144 140 146 177 12 10 147 148 9 14 137 149 131 138 139 136 8 18 123 122 13 16 185 125 124 183 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
