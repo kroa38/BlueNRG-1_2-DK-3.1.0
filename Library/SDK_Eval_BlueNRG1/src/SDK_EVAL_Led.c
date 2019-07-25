@@ -97,7 +97,10 @@ uint32_t Get_LedGpioPin(SdkEvalLed xLed)
     case(LED2):
       led_pin = SDK_EVAL_LED2_PIN;
       break;
-    default:
+    case(DONE):
+      led_pin = SDK_EVAL_DONE_PIN;
+      break;
+  default:
       led_pin = SDK_EVAL_LED1_PIN;
       break;
   }

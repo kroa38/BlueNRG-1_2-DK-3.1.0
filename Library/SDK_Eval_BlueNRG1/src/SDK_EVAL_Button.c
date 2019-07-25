@@ -76,23 +76,23 @@
 /* Buttons IRQ Pin */
 uint32_t Get_ButtonGpioPin(SdkEvalButton xButton)
 {
-  uint32_t button_pin;
+  uint32_t input_pin;
   switch (xButton)
   {
     case(ILS_SENSOR):
-      button_pin = PUSH_BUTTON1_PIN;
+      input_pin = ILS_SENSOR_PIN;
       break;
     case(ALERT_TMP117):
-      button_pin = PUSH_BUTTON2_PIN;
+      input_pin = ALERT_TMP117_PIN;
       break;    
     case(INT_TSL25911):
-      button_pin = PUSH_BUTTON3_PIN;
+      input_pin = INT_TSL25911_PIN;
       break;      
     default:
-      button_pin = PUSH_BUTTON1_PIN;
+      input_pin = ILS_SENSOR_PIN;
       break;
   }
-  return (button_pin);
+  return (input_pin);
 }
 
 /**
@@ -125,7 +125,14 @@ void SdkEvalPushButtonInit(SdkEvalButton xButton)
   /* Configures Button pin as input */
   GPIO_InitStructure.GPIO_Pin = Get_ButtonGpioPin(xButton);
   GPIO_InitStructure.GPIO_Mode = GPIO_Input;
-  GPIO_InitStructure.GPIO_Pull = DISABLE;
+  if(xButton==ILS_SENSOR)
+  {
+  GPIO_InitStructure.GPIO_Pull = ENABLE; 
+  }
+  else
+  {
+  GPIO_InitStructure.GPIO_Pull = DISABLE; 
+  }
   GPIO_InitStructure.GPIO_HighPwr = DISABLE;
   GPIO_Init(&GPIO_InitStructure);
 

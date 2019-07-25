@@ -53,7 +53,8 @@
 typedef enum {
   LED1 = 0,
   LED2 = 1,
-  LED3 = 2
+  LED3 = 2,
+  DONE = 3  
 } SdkEvalLed;
 
 /**

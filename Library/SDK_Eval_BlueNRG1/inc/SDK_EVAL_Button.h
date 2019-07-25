@@ -53,7 +53,7 @@
 typedef enum {
   ILS_SENSOR = 0,
   ALERT_TMP117,
-  INT_TSL25911
+  INT_TSL25911,
 } SdkEvalButton;
 
 

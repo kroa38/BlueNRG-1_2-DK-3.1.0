@@ -36,9 +36,10 @@
 /**
  * @brief BlueNRG1 Eval Board (STEVAL-IDB007Vx) Buttons definitions
  */
-#define PUSH_BUTTON1_PIN               GPIO_Pin_6
-#define PUSH_BUTTON2_PIN               GPIO_Pin_13
-#define PUSH_BUTTON3_PIN               GPIO_Pin_12
+#define ILS_SENSOR_PIN               GPIO_Pin_6               
+#define ALERT_TMP117_PIN             GPIO_Pin_13              
+#define INT_TSL25911_PIN             GPIO_Pin_12
+
 /**
  * @brief BlueNRG1 Eval Board (STEVAL-IDB007Vx) UART definitions
  */
@@ -76,7 +77,7 @@
  */
 #define SDK_EVAL_LED1_PIN             GPIO_Pin_1
 #define SDK_EVAL_LED2_PIN             GPIO_Pin_0   
-
+#define SDK_EVAL_DONE_PIN             GPIO_Pin_2
  
 
 
