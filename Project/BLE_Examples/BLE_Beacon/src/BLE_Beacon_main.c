@@ -20,6 +20,7 @@
 #define ADC_ENABLE()      (ADC_Cmd(ENABLE))
 #define ADC_CONFIGURATION()   (ADC_Configuration())
 #define ADC_CHECK_FLAG        (ADC_GetFlagStatus(ADC_FLAG_EOC))
+#undef TEST_TONE
 /* Private define ------------------------------------------------------------*/
 #define BLE_BEACON_VERSION_STRING "1.1.0"
 
@@ -30,9 +31,8 @@
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 ADC_InitType xADC_InitType;
-uint8_t adv_data[];
+//uint8_t adv_data[];
 uint8_t uuid_buffer[30];
-static  uint8_t ret;
 //volatile uint32_t lSystickCounter=0;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
@@ -49,11 +49,15 @@ void Device_Init(void)
   uint16_t appearance_char_handle;
   
   /* Set the TX Power to 8 dBm */
-  ret = aci_hal_set_tx_power_level(1,4);
-  
+  ret = aci_hal_set_tx_power_level(1,6);
   if(ret != 0) {
     while(1);
   }
+#ifdef TEST_TONE
+  aci_hal_tone_start(0,0);
+  while(1);
+#endif
+  
   /* Init the GATT */
   ret = aci_gatt_init();
   /* Init the GAP */
@@ -252,7 +256,7 @@ void get_sensor_data(uint8_t ils_state)
   TMP117_SetConfig(C15mS5,AVE8,DATA,ONESHOT,ACTIVE_H);
   Clock_Wait(1);
   while(SdkEvalPushButtonGetState(ALERT_TMP117) == RESET);
-  temperature = (uint16_t)(round(TMP117_getTemperature()*100));
+  temperature = (uint16_t)(TMP117_getTemperature()*10+100);
   asm("nop"); 
   /******************* GET DATA FROM TSL2591 *********************/  
   
@@ -288,57 +292,39 @@ void get_sensor_data(uint8_t ils_state)
   uuid_buffer[13] = 0x02;
   // PAYLOAD  SENSOR NUMBER
   uuid_buffer[14] = 0x01; 
-  // PAYLOAD  BATTERY VOLTAGE  :adc_value
+  // PAYLOAD  BATTERY VOLTAGE  :adc_value (5182 = 5.182V)
   uuid_buffer[15] = (uint8_t)(adc_value>>8 & 0xFF);
   uuid_buffer[16] = (uint8_t)(adc_value & 0xFF);
  
-  // PAYLOAD  TEMPERATURE BME680
-    if(data.temperature<0) 
-  {
-    tmp = ((uint16_t)data.temperature)/10+2000;
-  }
-  else
-  {     
-    tmp = ((uint16_t)data.temperature)/10+1000;
-  }  
-    uuid_buffer[17] = (uint8_t)(tmp>>8 & 0xFF);
-    uuid_buffer[18] = (uint8_t)(tmp & 0xFF);
+  // PAYLOAD  TEMPERATURE BME680 (374 = 27.4°C)
+  tmp = (uint16_t)(data.temperature+1000.0)/10;
+  uuid_buffer[17] = (uint8_t)(tmp>>8 & 0xFF);
+  uuid_buffer[18] = (uint8_t)(tmp & 0xFF);
     
-  // PAYLOAD HUMIDITY BME680
-  tmp = (uint16_t)(data.humidity/10);
-  uuid_buffer[19] = (uint8_t)(tmp>>8 & 0xFF);
-  uuid_buffer[20] = (uint8_t)(tmp & 0xFF);   
-  // PAYLOAD PRESSURE BME680
+  // PAYLOAD LIMINOSITY TSL2591(1536 = 1536 RELATIVE ILLUMINANCE)
+  tmp = (uint16_t)(lum);
+  uuid_buffer[19] = (uint8_t)(tmp>>8 & 0xFF);    // MAJOR
+  uuid_buffer[20] = (uint8_t)(tmp & 0xFF);       // MAJOR
+  
+  // PAYLOAD PRESSURE BME680 (9809 = 980.9Hpa)
   tmp = (uint16_t)(data.pressure/10);
   uuid_buffer[21] = (uint8_t)(tmp>>8 & 0xFF);
   uuid_buffer[22] = (uint8_t)(tmp & 0xFF);  
-  // PAYLOAD GAZ RESISTANCE BME680
+  // PAYLOAD GAZ RESISTANCE BME680 (645 = 645KOhms)
   tmp = (uint16_t)(data.gas_resistance/1000);
   uuid_buffer[23] = (uint8_t)(tmp>>8 & 0xFF);
   uuid_buffer[24] = (uint8_t)(tmp & 0xFF); 
-  // PAYLOAD LIMINOSITY TSL2591
-  tmp = (uint16_t)(lum);
-  uuid_buffer[25] = (uint8_t)(tmp>>8 & 0xFF);    // MAJOR
-  uuid_buffer[26] = (uint8_t)(tmp & 0xFF);       // MAJOR
 
-  // PAYLOAD  TEMPERATURE TMP117
-    if(temperature<0.0) 
-  {
-    tmp = temperature/10+2000;
-  }
-  else
-  {     
-    tmp = temperature/10+1000;
-  }  
-  
-  if(ils_state==RESET)
-  {
-    tmp += 5000;                                // indicate ILS EVENT
-  }
-    uuid_buffer[27] = (uint8_t)(tmp>>8 & 0xFF);  // MINOR
-    uuid_buffer[28] = (uint8_t)(tmp & 0xFF);     // MINOR  
- 
-    
+  // PAYLOAD  TEMPERATURE TMP117 (375 = 27.5°C ;;; 1375 = 27.5°C + ILS_Sensor)
+  if (!ils_state) temperature+=1000;
+  uuid_buffer[25] = (uint8_t)(temperature>>8 & 0xFF);  // MINOR
+  uuid_buffer[26] = (uint8_t)(temperature & 0xFF);     // MINOR  
+
+  // PAYLOAD HUMIDITY BME680  (3850 = 38.5% Hum)
+  tmp = (uint16_t)(data.humidity/10);
+  uuid_buffer[27] = (uint8_t)(tmp>>8 & 0xFF);
+  uuid_buffer[28] = (uint8_t)(tmp & 0xFF);  
+
   //2's complement of the Tx power (-56dB)};
   uuid_buffer[29] = 0xC8;        //2's complement of the Tx power (-56dB)}; 
   asm("nop");   

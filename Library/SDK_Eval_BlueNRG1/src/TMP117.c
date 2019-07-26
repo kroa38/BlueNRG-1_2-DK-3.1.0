@@ -206,6 +206,7 @@ uint16_t  TMP117_readConfig (void) {
 */
 double TMP117_getTemperature (void) {
   int16_t temp = TMP117_i2cRead2B( TMP117_REG_TEMPERATURE );
+  asm("nop");
   return  (temp * TMP117_RESOLUTION);
 }
 /*!
