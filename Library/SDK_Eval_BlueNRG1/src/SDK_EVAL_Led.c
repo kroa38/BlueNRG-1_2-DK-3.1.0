@@ -138,8 +138,16 @@ void SdkEvalLedInit(SdkEvalLed xLed)
   /* Configure the LED pin */
   GPIO_InitStructure.GPIO_Pin = Get_LedGpioPin(xLed);
   GPIO_InitStructure.GPIO_Mode = GPIO_Output;
-  GPIO_InitStructure.GPIO_Pull = ENABLE;
-  GPIO_InitStructure.GPIO_HighPwr = ENABLE;
+  if(xLed == DONE)
+  {
+    GPIO_InitStructure.GPIO_Pull = DISABLE;
+    GPIO_InitStructure.GPIO_HighPwr = DISABLE;
+  }
+  else
+  {
+    GPIO_InitStructure.GPIO_Pull = ENABLE;
+    GPIO_InitStructure.GPIO_HighPwr = ENABLE;    
+  }
   GPIO_Init(&GPIO_InitStructure);
 
   /* Put the LED off */

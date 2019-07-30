@@ -11,63 +11,33 @@
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\osal.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\sleep.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_adc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\compiler.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\hal_types.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\asm.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\bme680_defs.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\bme680.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\bluenrg_x_device.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h</file>
-            <file>$PROJ_DIR$\..\..\inc\Beacon_config.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h</file>
-            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_it.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\TMP117.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\osal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_uart.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_wdg.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\bme680.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Button.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Com.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Config.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_I2C.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Led.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\TMP117.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\TSL2591.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stack_user_cfg.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_bluenrg1.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\BLE_Beacon_main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_it.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
+            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
+            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_uart.o</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_wdg.o</file>
             <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
@@ -99,7 +69,6 @@
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_sysCtrl.o</file>
             <file>$PROJ_DIR$\Debug\Exe\BLE_Beacon.out</file>
             <file>$PROJ_DIR$\Debug\Exe\BLE_Beacon.hex</file>
-            <file>$PROJ_DIR$\Debug\Obj\BLE_Beacon.pbd</file>
             <file>$PROJ_DIR$\Debug\List\BLE_Beacon.map</file>
             <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\context_switch.o</file>
@@ -108,6 +77,49 @@
             <file>$PROJ_DIR$\Debug\Obj\sleep.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_adc.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_dma.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\hal_types.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\asm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\bme680_defs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\bme680.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h</file>
+            <file>$PROJ_DIR$\..\..\inc\Beacon_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_it.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\TMP117.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\osal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\TMP117.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_bluenrg1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Config.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BLE_Beacon_main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_I2C.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_sysCtrl.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_wdg.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_flash.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_gpio.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_i2c.pbi</file>
@@ -116,34 +128,6 @@
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_rtc.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_spi.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_sysCtrl.pbi</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\src\OTA_btl.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
-            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
-            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\sleep.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h</file>
@@ -179,13 +163,56 @@
             <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_SPI.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\miscutil.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sleep.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\osal.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_pka.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Button.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stack_user_cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_rtc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Com.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_mft.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_it.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\TSL2591.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Led.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\bme680.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_wdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\bme680.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Button.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Com.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Config.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_I2C.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SDK_EVAL_Led.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\TMP117.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\TSL2591.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stack_user_cfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_bluenrg1.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\BLE_Beacon_main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\BlueNRG1_it.pbi</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 92 95</file>
+                    <file> 64 62</file>
                 </tool>
             </outputs>
         </file>
@@ -194,21 +221,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 96</file>
+                    <file> 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 79</file>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 161</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 38 147 153 9 15 30 164 23 142 151 150 12 11 144 163 18 154 22 25 16 157 24 10 14 155 156</file>
+                    <file> 104 131 137 75 81 96 148 89 126 135 134 78 77 128 147 84 138 88 91 82 141 90 76 80 139 140</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 164</file>
+                    <file> 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 148</file>
                 </tool>
             </inputs>
         </file>
@@ -217,13 +248,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 97</file>
+                    <file> 66</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 21</file>
+                    <file> 87</file>
                 </tool>
             </inputs>
         </file>
@@ -232,21 +263,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 98</file>
+                    <file> 67</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 78</file>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 158</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 147 9 157 24 15 11 160 150 12 16 10 159 163 30 25 38 144 18 23 158 36 37</file>
+                    <file> 131 75 141 90 81 77 144 134 78 82 76 143 147 96 91 104 128 84 89 142 102 103</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 160 158 159 36 37</file>
+                    <file> 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 144 142 143 102 103</file>
                 </tool>
             </inputs>
         </file>
@@ -255,21 +290,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 99</file>
+                    <file> 68</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 80</file>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 160</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16 36 11 37 163 38 144 159 39</file>
+                    <file> 82 102 77 103 147 104 128 143 105</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 159 11 163 16 38 144 36 37 39</file>
+                    <file> 143 77 147 82 104 128 102 103 105</file>
                 </tool>
             </inputs>
         </file>
@@ -278,21 +317,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 100</file>
+                    <file> 69</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 81</file>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11 30 15 151 38 36 150 12 23 142 159 153 163 37 9 41 140 160 16 144 18 154 22 139 147 25 157 24 10 14 155 156 158</file>
+                    <file> 77 96 81 135 104 102 134 78 89 126 143 137 147 103 75 179 124 144 82 128 84 138 88 123 131 91 141 90 76 80 139 140 142</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15 11 163 16 38 144 41 36 139 159 37 30 150 147 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 140 160 158</file>
+                    <file> 81 77 147 82 104 128 179 102 123 143 103 96 134 131 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 124 144 142</file>
                 </tool>
             </inputs>
         </file>
@@ -301,40 +344,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 101</file>
+                    <file> 70</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 82</file>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 162</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 150 12 15 9 38 23 30 147 11 144 163 18 47 25 16 157 24 10</file>
+                    <file> 134 78 81 75 104 89 96 131 77 128 147 84 185 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 47 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\BLE_Beacon.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 95</file>
-                </tool>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 93</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 165 76 82 83 84 85 86 77 87 88 89 90 91 63 64 66 79 97 133 134 65 78 80 67 68 69 70 71 81 74 75 72 73 162 29 17 170</file>
+                    <file> 185 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -343,21 +371,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 102</file>
+                    <file> 71</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 83</file>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 172</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 11 147 144 163 18 30 150 12 9 38 23 22 25 16 157 24 10</file>
+                    <file> 81 77 131 128 147 84 96 134 78 75 104 89 88 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 22 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 88 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -366,21 +398,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 103</file>
+                    <file> 115</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 84</file>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 111</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 11 30 147 144 163 18 150 12 9 38 23 14 25 16 157 24 10</file>
+                    <file> 81 77 96 131 128 147 84 134 78 75 104 89 80 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 14 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 80 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -389,21 +425,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 104</file>
+                    <file> 116</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 85</file>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 173</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 11 30 147 144 163 18 150 12 9 38 23 154 25 16 157 24 10</file>
+                    <file> 81 77 96 131 128 147 84 134 78 75 104 89 138 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 154 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 138 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -412,21 +452,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 105</file>
+                    <file> 117</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 86</file>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 174</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 9 38 150 12 23 30 147 11 144 163 18 142 25 16 157 24 10</file>
+                    <file> 81 75 104 134 78 89 96 131 77 128 147 84 126 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 142 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 126 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -435,21 +479,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 106</file>
+                    <file> 118</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 87</file>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 169</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 147 15 9 30 38 23 150 12 11 144 163 18 143 25 16 157 24 10</file>
+                    <file> 131 81 75 96 104 89 134 78 77 128 147 84 127 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 143 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 127 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -458,21 +506,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 107</file>
+                    <file> 119</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 88</file>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 163</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 157 25 163 150 12 24 30 147 39 16 10 148 15 9 11 38 144 18 23</file>
+                    <file> 141 91 147 134 78 90 96 131 105 82 76 132 81 75 77 104 128 84 89</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 148 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 39</file>
+                    <file> 132 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 105</file>
                 </tool>
             </inputs>
         </file>
@@ -481,21 +533,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 108</file>
+                    <file> 120</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 89</file>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 167</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 11 147 144 163 18 30 150 12 9 38 23 145 25 16 157 24 10</file>
+                    <file> 81 77 131 128 147 84 96 134 78 75 104 89 129 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 145 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 129 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -504,21 +560,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 109</file>
+                    <file> 121</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 90</file>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 112</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 9 38 150 12 23 30 147 11 144 163 18 146 25 16 157 24 10</file>
+                    <file> 81 75 104 134 78 89 96 131 77 128 147 84 130 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 146 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 130 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -527,21 +587,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 110</file>
+                    <file> 122</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 91</file>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 11 30 150 12 144 163 18 147 9 38 23 156 25 16 157 24 10</file>
+                    <file> 81 77 96 134 78 128 147 84 131 75 104 89 140 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 156 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 140 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -550,21 +614,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 48</file>
+                    <file> 186</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 63</file>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 164</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 9 38 30 147 23 150 12 11 144 163 18 155 25 16 157 24 10</file>
+                    <file> 81 75 104 96 131 89 134 78 77 128 147 84 139 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 155 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 139 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -573,21 +641,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 49</file>
+                    <file> 187</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 64</file>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 150 12 15 11 144 163 18 30 147 9 38 23 40 25 16 157 24 10</file>
+                    <file> 134 78 81 77 128 147 84 96 131 75 104 89 178 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 40 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 178 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -596,21 +668,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 50</file>
+                    <file> 188</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 65</file>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 177</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 150 12 15 11 144 163 18 30 147 9 38 23 153 25 16 157 24 10</file>
+                    <file> 134 78 81 77 128 147 84 96 131 75 104 89 137 91 82 141 90 76</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 153 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23</file>
+                    <file> 137 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89</file>
                 </tool>
             </inputs>
         </file>
@@ -619,21 +695,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 51</file>
+                    <file> 189</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 66</file>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 176</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11 151 163 15 30 144 172 23 142 168 38 36 150 12 9 153 44 26 164 20 16 147 25 157 24 18 154 22 132 19 27 10 14 155 156 141 173</file>
+                    <file> 77 135 147 81 96 128 156 89 126 152 104 102 134 78 75 137 182 92 148 86 82 131 91 141 90 84 138 88 26 85 93 76 80 139 140 125 157</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27 26 15 11 163 16 38 144 20 36 168 30 150 147 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 141 44 19 173 164</file>
+                    <file> 93 92 81 77 147 82 104 128 86 102 152 96 134 131 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 125 182 85 157 148</file>
                 </tool>
             </inputs>
         </file>
@@ -642,21 +722,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 52</file>
+                    <file> 190</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 67</file>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 165</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 147 151 10 14 30 44 16 155 172 150 12 25 163 157 24 22 156 132 19 141 15 9 11 38 144 18 23 154 142 153 168 173</file>
+                    <file> 131 135 76 80 96 182 82 139 156 134 78 91 147 141 90 88 140 26 85 125 81 75 77 104 128 84 89 138 126 137 152 157</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 141 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 44 168 19 173</file>
+                    <file> 125 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 182 152 85 157</file>
                 </tool>
             </inputs>
         </file>
@@ -665,21 +749,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 53</file>
+                    <file> 191</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 68</file>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 168</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 30 28 151 15 11 16 147 155 10 14 44 166 7 172 150 12 9 157 24 22 156 132 19 163 36 25 38 144 18 23 154 142 153 141 168 173</file>
+                    <file> 96 94 135 81 77 82 131 139 76 80 182 150 73 156 134 78 75 141 90 88 140 26 85 147 102 91 104 128 84 89 138 126 137 125 152 157</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 141 168 19 173 166 36 7 28</file>
+                    <file> 182 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 125 152 85 157 150 102 73 94</file>
                 </tool>
             </inputs>
         </file>
@@ -688,21 +776,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 54</file>
+                    <file> 192</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 69</file>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 108</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 11 151 147 22 30 172 144 163 18 154 168 150 12 9 38 23 142 153 141 173 25 16 157 24 10 14 155 156 132 44 19</file>
+                    <file> 81 77 135 131 88 96 156 128 147 84 138 152 134 78 75 104 89 126 137 125 157 91 82 141 90 76 80 139 140 26 182 85</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 141 44 168 19 173</file>
+                    <file> 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 125 182 152 85 157</file>
                 </tool>
             </inputs>
         </file>
@@ -711,21 +803,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 55</file>
+                    <file> 193</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 70</file>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 110</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 172 155 150 12 16 30 10 14 44 151 147 25 163 157 24 22 156 132 19 168 15 9 11 38 144 18 23 154 142 153 141 173</file>
+                    <file> 156 139 134 78 82 96 76 80 182 135 131 91 147 141 90 88 140 26 85 152 81 75 77 104 128 84 89 138 126 137 125 157</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 168 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 141 44 19 173</file>
+                    <file> 152 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 125 182 85 157</file>
                 </tool>
             </inputs>
         </file>
@@ -734,21 +830,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 56</file>
+                    <file> 194</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 71</file>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 175</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 156 151 157 24 25 163 30 132 172 147 22 19 150 12 16 10 14 155 44 15 9 11 38 144 18 23 154 142 153 141 168 173</file>
+                    <file> 140 135 141 90 91 147 96 26 156 131 88 85 134 78 82 76 80 139 182 81 75 77 104 128 84 89 138 126 137 125 152 157</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 141 44 168 173</file>
+                    <file> 85 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 125 182 152 157</file>
                 </tool>
             </inputs>
         </file>
@@ -757,21 +857,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 57</file>
+                    <file> 195</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 72</file>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 106</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 159 157 30 163 25 24 156 141 172 168 16 147 22 173 35 166 15 11 36 38 144 37 151 10 14 155 150 12 9 18 23 154 142 153 132 44 19</file>
+                    <file> 143 141 96 147 91 90 140 125 156 152 82 131 88 157 101 150 81 77 102 104 128 103 135 76 80 139 134 78 75 84 89 138 126 137 26 182 85</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 35 166 11 163 16 38 144 36 159 37 15 168 30 150 147 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 141 44 19 173</file>
+                    <file> 101 150 77 147 82 104 128 102 143 103 81 152 96 134 131 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 125 182 85 157</file>
                 </tool>
             </inputs>
         </file>
@@ -780,21 +884,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 58</file>
+                    <file> 196</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 73</file>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 163 15 139 151 11 152 30 144 171 172 23 142 38 159 164 150 12 9 153 44 161 36 16 166 168 37 147 25 18 154 22 132 19 41 157 24 10 14 155 156 141 173</file>
+                    <file> 147 81 123 135 77 136 96 128 155 156 89 126 104 143 148 134 78 75 137 182 145 102 82 150 152 103 131 91 84 138 88 26 85 179 141 90 76 80 139 140 125 157</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 41 11 163 16 38 144 36 139 161 166 159 37 15 152 171 168 30 150 147 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 172 132 141 44 19 173 164</file>
+                    <file> 179 77 147 82 104 128 102 123 145 150 143 103 81 136 155 152 96 134 131 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 156 26 125 182 85 157 148</file>
                 </tool>
             </inputs>
         </file>
@@ -803,21 +911,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 59</file>
+                    <file> 197</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 74</file>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 166</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16 6 15 18 163 42 11 38 144</file>
+                    <file> 82 72 81 84 147 180 77 104 128</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 42 15 11 163 16 38 144 18 6</file>
+                    <file> 180 81 77 147 82 104 128 84 72</file>
                 </tool>
             </inputs>
         </file>
@@ -826,21 +938,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 60</file>
+                    <file> 198</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 75</file>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 107</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 37 144 30 163 15 18 150 12 153 25 158 11 14 160 156 147 38 23 36 9 16 157 24 10 159</file>
+                    <file> 103 128 96 147 81 84 134 78 137 91 142 77 80 144 140 131 104 89 102 75 82 141 90 76 143</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 14 153 160 158 159 36 37 156</file>
+                    <file> 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 80 137 144 142 143 102 103 140</file>
                 </tool>
             </inputs>
         </file>
@@ -849,21 +965,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 61</file>
+                    <file> 199</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 76</file>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 109</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 159 150 12 151 32 163 30 25 23 142 6 149 27 15 34 140 47 16 153 13 167 44 164 171 46 172 8 35 161 11 36 38 144 37 147 18 154 22 33 31 132 19 168 152 166 9 157 24 10 14 155 156 43 169 45 42 141 173 26 20</file>
+                    <file> 143 102 135 98 128 91 147 89 126 96 72 133 93 77 131 81 100 124 185 104 103 137 79 151 182 148 155 184 156 74 101 145 82 134 78 84 138 88 99 97 26 85 152 136 150 75 141 90 76 80 139 140 181 153 183 180 125 157 92 86</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 166 11 163 16 38 144 36 159 37 34 30 150 147 15 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 149 33 42 43 13 31 169 45 46 167 140 172 132 141 44 168 19 173 32 6 8 47 35 27 26 20 164 161 152 171</file>
+                    <file> 150 77 147 82 104 128 102 143 103 100 96 134 131 81 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 133 99 180 181 79 97 153 183 184 151 124 156 26 125 182 152 85 157 98 72 74 185 101 93 92 86 148 145 136 155</file>
                 </tool>
             </inputs>
         </file>
@@ -872,21 +992,44 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 62</file>
+                    <file> 200</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 77</file>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 170</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 33 15 11 22 164 144 163 18 154 31 149 30 150 12 9 38 23 142 153 13 151 46 147 25 16 157 24 10 14 155 156 43 169 45 42 167 34</file>
+                    <file> 99 81 77 88 148 128 147 84 138 97 133 96 134 78 75 104 89 126 137 79 135 184 131 91 82 141 90 76 80 139 140 181 153 183 180 151 100</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 34 30 150 147 15 11 163 16 38 144 25 157 24 9 12 10 18 23 151 14 154 22 142 155 156 153 149 33 42 43 13 31 169 45 46 167 164</file>
+                    <file> 100 96 134 131 81 77 147 82 104 128 91 141 90 75 78 76 84 89 135 80 138 88 126 139 140 137 133 99 180 181 79 97 153 183 184 151 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\BLE_Beacon.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 149 46 52 53 54 55 56 47 57 58 59 60 61 33 34 36 49 66 27 28 35 48 50 37 38 39 40 41 51 44 45 42 43 146 95 83 154</file>
                 </tool>
             </inputs>
         </file>
@@ -900,6 +1043,33 @@
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\osal.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\sleep.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
+            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
+            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h</file>
@@ -924,7 +1094,7 @@
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\bme680.h</file>
             <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
             <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\bluenrg_x_device.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h</file>
             <file>$PROJ_DIR$\..\..\inc\Beacon_config.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h</file>
@@ -934,14 +1104,21 @@
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\osal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\sleep.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_mft.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cm0.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_pka.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_conf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h</file>
             <file>$PROJ_DIR$\Release\Obj\miscutil.pbi</file>
             <file>$PROJ_DIR$\Release\Obj\osal.pbi</file>
             <file>$PROJ_DIR$\Release\Obj\BlueNRG1_mft.pbi</file>
@@ -1034,49 +1211,6 @@
             <file>$PROJ_DIR$\Release\Obj\BlueNRG1_gpio.o</file>
             <file>$PROJ_DIR$\Release\Obj\BlueNRG1_i2c.o</file>
             <file>$PROJ_DIR$\Release\Obj\BlueNRG1_rtc.__cstat.et</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\src\OTA_btl.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
-            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
-            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\sleep.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_mft.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_rtc.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_spi.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cm0.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_pka.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h</file>
-            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_conf.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h</file>
@@ -1097,13 +1231,21 @@
             <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_SPI.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 123 75</file>
+                    <file> 157 109</file>
                 </tool>
             </outputs>
         </file>
@@ -1112,25 +1254,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 132</file>
+                    <file> 166</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 76</file>
+                    <file> 110</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 109</file>
+                    <file> 143</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 38 176 182 9 15 30 193 23 171 180 179 12 11 173 192 18 183 22 25 16 186 24 10 14 184 185</file>
+                    <file> 65 75 81 36 42 57 184 50 70 79 78 39 38 72 183 45 174 49 52 43 177 51 37 41 175 176</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 193</file>
+                    <file> 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 184</file>
                 </tool>
             </inputs>
         </file>
@@ -1139,13 +1281,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 77</file>
+                    <file> 111</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 21</file>
+                    <file> 48</file>
                 </tool>
             </inputs>
         </file>
@@ -1154,25 +1296,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 48</file>
+                    <file> 82</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 55</file>
+                    <file> 89</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 62</file>
+                    <file> 96</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 176 9 186 24 15 11 189 179 12 16 10 188 192 30 25 38 173 18 23 187 36 37</file>
+                    <file> 75 36 177 51 42 38 180 78 39 43 37 179 183 57 52 65 72 45 50 178 63 64</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 189 187 188 36 37</file>
+                    <file> 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 180 178 179 63 64</file>
                 </tool>
             </inputs>
         </file>
@@ -1181,25 +1323,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 49</file>
+                    <file> 83</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 53</file>
+                    <file> 87</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 127</file>
+                    <file> 161</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16 36 11 37 192 38 173 188 39</file>
+                    <file> 43 63 38 64 183 65 72 179 66</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 188 11 192 16 38 173 36 37 39</file>
+                    <file> 179 38 183 43 65 72 63 64 66</file>
                 </tool>
             </inputs>
         </file>
@@ -1208,25 +1350,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 94</file>
+                    <file> 128</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 54</file>
+                    <file> 88</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 61</file>
+                    <file> 95</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11 30 15 180 38 36 179 12 23 171 188 182 192 37 9 41 169 189 16 173 18 183 22 168 176 25 186 24 10 14 184 185 187</file>
+                    <file> 38 57 42 79 65 63 78 39 50 70 179 81 183 64 36 195 68 180 43 72 45 174 49 67 75 52 177 51 37 41 175 176 178</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15 11 192 16 38 173 41 36 168 188 37 30 179 176 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 169 189 187</file>
+                    <file> 42 38 183 43 65 72 195 63 67 179 64 57 78 75 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 68 180 178</file>
                 </tool>
             </inputs>
         </file>
@@ -1235,408 +1377,11 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 99</file>
+                    <file> 133</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 56</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 67</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 179 12 15 9 38 23 30 176 11 173 192 18 47 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 47 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Release\Exe\BLE_Beacon.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 75</file>
-                </tool>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 124</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 194 65 56 57 58 137 138 133 135 134 131 128 129 130 114 64 76 77 162 163 108 55 53 69 113 87 59 90 54 88 89 79 51 191 29 17 199</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 97</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 57</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 68</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 11 176 173 192 18 30 179 12 9 38 23 22 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 22 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 95</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 58</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 116</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 11 30 176 173 192 18 179 12 9 38 23 14 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 14 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 92</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 137</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 63</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 11 30 176 173 192 18 179 12 9 38 23 183 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 183 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 96</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 138</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 117</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 9 38 179 12 23 30 176 11 173 192 18 171 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 171 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 50</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 135</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 126</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 176 15 9 30 38 23 179 12 11 173 192 18 172 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 172 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 100</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 134</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 125</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 186 25 192 179 12 24 30 176 39 16 10 177 15 9 11 38 173 18 23</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 177 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 39</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 93</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 131</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 139</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 11 176 173 192 18 30 179 12 9 38 23 174 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 174 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 98</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 128</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 91</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 9 38 179 12 23 30 176 11 173 192 18 175 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 175 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 136</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 129</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 74</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 11 30 179 12 173 192 18 176 9 38 23 185 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 185 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 71</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 130</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 81</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 9 38 30 176 23 179 12 11 173 192 18 184 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 184 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 120</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 114</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 83</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 179 12 15 11 173 192 18 30 176 9 38 23 40 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 40 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 73</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 108</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 85</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 179 12 15 11 173 192 18 30 176 9 38 23 182 25 16 186 24 10</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 182 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 70</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 64</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 119</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 11 180 192 15 30 173 201 23 171 197 38 36 179 12 9 182 44 26 193 20 16 176 25 186 24 18 183 22 161 19 27 10 14 184 185 170 202</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 27 26 15 11 192 16 38 173 20 36 197 30 179 176 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 170 44 19 202 193</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 118</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 69</file>
+                    <file> 90</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -1646,43 +1391,259 @@
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 176 180 10 14 30 44 16 184 201 179 12 25 192 186 24 22 185 161 19 170 15 9 11 38 173 18 23 183 171 182 197 202</file>
+                    <file> 78 39 42 36 65 50 57 75 38 72 183 45 201 52 43 177 51 37</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 170 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 44 197 19 202</file>
+                    <file> 201 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</name>
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 66</file>
+                    <file> 131</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 113</file>
+                    <file> 91</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 82</file>
+                    <file> 102</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 30 28 180 15 11 16 176 184 10 14 44 195 7 201 179 12 9 186 24 22 185 161 19 192 36 25 38 173 18 23 183 171 182 170 197 202</file>
+                    <file> 42 38 75 72 183 45 57 78 39 36 65 50 49 52 43 177 51 37</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 170 197 19 202 195 36 7 28</file>
+                    <file> 49 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 38 57 75 72 183 45 78 39 36 65 50 41 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 38 57 75 72 183 45 78 39 36 65 50 174 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 151</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 36 65 78 39 50 57 75 38 72 183 45 70 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 42 36 57 65 50 78 39 38 72 183 45 71 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177 52 183 78 39 51 57 75 66 43 37 76 42 36 38 65 72 45 50</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 38 75 72 183 45 57 78 39 36 65 50 73 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 36 65 78 39 50 57 75 38 72 183 45 74 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 38 57 78 39 72 183 45 75 36 65 50 176 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 176 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</name>
             <outputs>
                 <tool>
                     <name>BICOMP</name>
@@ -1690,142 +1651,7 @@
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 87</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 84</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15 11 180 176 22 30 201 173 192 18 183 197 179 12 9 38 23 171 182 170 202 25 16 186 24 10 14 184 185 161 44 19</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 170 44 197 19 202</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 60</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 59</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 86</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 201 184 179 12 16 30 10 14 44 180 176 25 192 186 24 22 185 161 19 197 15 9 11 38 173 18 23 183 171 182 170 202</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 197 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 170 44 19 202</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 102</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 90</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 80</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 185 180 186 24 25 192 30 161 201 176 22 19 179 12 16 10 14 184 44 15 9 11 38 173 18 23 183 171 182 170 197 202</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 19 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 170 44 197 202</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 78</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 79</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 121</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 188 186 30 192 25 24 185 170 201 197 16 176 22 202 35 195 15 11 36 38 173 37 180 10 14 184 179 12 9 18 23 183 171 182 161 44 19</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 35 195 11 192 16 38 173 36 188 37 15 197 30 179 176 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 170 44 19 202</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 111</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 51</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 52</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 192 15 168 180 11 181 30 173 200 201 23 171 38 188 193 179 12 9 182 44 190 36 16 195 197 37 176 25 18 183 22 161 19 41 186 24 10 14 184 185 170 202</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 41 11 192 16 38 173 36 168 190 195 188 37 15 181 200 197 30 179 176 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 201 161 170 44 19 202 193</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 112</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 88</file>
+                    <file> 164</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -1835,11 +1661,308 @@
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16 6 15 18 192 42 11 38 173</file>
+                    <file> 42 36 65 57 75 50 78 39 38 72 183 45 175 52 43 177 51 37</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 42 15 11 192 16 38 173 18 6</file>
+                    <file> 175 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 39 42 38 72 183 45 57 75 36 65 50 194 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 39 42 38 72 183 45 57 75 36 65 50 81 52 43 177 51 37</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\bme680.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38 79 183 42 57 72 192 50 70 188 65 63 78 39 36 81 198 53 184 47 43 75 52 177 51 45 174 49 26 46 54 37 41 175 176 69 193</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 53 42 38 183 43 65 72 47 63 188 57 78 75 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 69 198 46 193 184</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 79 37 41 57 198 43 175 192 78 39 52 183 177 51 49 176 26 46 69 42 36 38 65 72 45 50 174 70 81 188 193</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 198 188 46 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 55 79 42 38 43 75 175 37 41 198 186 34 192 78 39 36 177 51 49 176 26 46 183 63 52 65 72 45 50 174 70 81 69 188 193</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 69 188 46 193 186 63 34 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 38 79 75 49 57 192 72 183 45 174 188 78 39 36 65 50 70 81 69 193 52 43 177 51 37 41 175 176 26 198 46</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 69 198 188 46 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192 175 78 39 43 57 37 41 198 79 75 52 183 177 51 49 176 26 46 188 42 36 38 65 72 45 50 174 70 81 69 193</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 69 198 46 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176 79 177 51 52 183 57 26 192 75 49 46 78 39 43 37 41 175 198 42 36 38 65 72 45 50 174 70 81 69 188 193</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 69 198 188 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TMP117.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179 177 57 183 52 51 176 69 192 188 43 75 49 193 62 186 42 38 63 65 72 64 79 37 41 175 78 39 36 45 50 174 70 81 26 198 46</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 186 38 183 43 65 72 63 179 64 42 188 57 78 75 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 69 198 46 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\TSL2591.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183 42 67 79 38 80 57 72 191 192 50 70 65 179 184 78 39 36 81 198 181 63 43 186 188 64 75 52 45 174 49 26 46 195 177 51 37 41 175 176 69 193</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195 38 183 43 65 72 63 67 181 186 179 64 42 80 191 188 57 78 75 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 192 26 69 198 46 193 184</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43 33 42 45 183 196 38 65 72</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196 42 38 183 43 65 72 45 33</file>
                 </tool>
             </inputs>
         </file>
@@ -1848,25 +1971,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 106</file>
+                    <file> 140</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 89</file>
+                    <file> 123</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 110</file>
+                    <file> 144</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 37 173 30 192 15 18 179 12 182 25 187 11 14 189 185 176 38 23 36 9 16 186 24 10 188</file>
+                    <file> 64 72 57 183 42 45 78 39 81 52 178 38 41 180 176 75 65 50 63 36 43 177 51 37 179</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 14 182 189 187 188 36 37 185</file>
+                    <file> 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 41 81 180 178 179 63 64 176</file>
                 </tool>
             </inputs>
         </file>
@@ -1875,25 +1998,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 72</file>
+                    <file> 106</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 65</file>
+                    <file> 99</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 107</file>
+                    <file> 141</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 188 180 32 37 25 192 23 171 30 6 178 27 11 38 15 34 169 47 36 173 176 182 13 196 44 193 200 46 201 8 35 190 16 179 12 18 183 22 33 31 161 19 197 181 195 9 186 24 10 14 184 185 43 198 45 42 170 202 26 20</file>
+                    <file> 179 79 59 52 183 50 70 57 33 77 54 78 39 42 61 68 201 43 81 40 187 198 184 191 200 192 35 62 181 38 63 65 72 64 75 45 174 49 60 58 26 46 188 80 186 36 177 51 37 41 175 176 197 189 199 196 69 193 53 47</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 195 11 192 16 38 173 36 188 37 34 30 179 176 15 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 178 33 42 43 13 31 198 45 46 196 169 201 161 170 44 197 19 202 32 6 8 47 35 27 26 20 193 190 181 200</file>
+                    <file> 186 38 183 43 65 72 63 179 64 61 57 78 75 42 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 77 60 196 197 40 58 189 199 200 187 68 192 26 69 198 188 46 193 59 33 35 201 62 54 53 47 184 181 80 191</file>
                 </tool>
             </inputs>
         </file>
@@ -1902,25 +2025,44 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 122</file>
+                    <file> 156</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 133</file>
+                    <file> 167</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 104</file>
+                    <file> 138</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 33 15 11 22 193 173 192 18 183 31 178 30 179 12 9 38 23 171 182 13 180 46 176 25 16 186 24 10 14 184 185 43 198 45 42 196 34</file>
+                    <file> 60 42 38 49 184 72 183 45 174 58 77 57 78 39 36 65 50 70 81 40 79 200 75 52 43 177 51 37 41 175 176 197 189 199 196 187 61</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 34 30 179 176 15 11 192 16 38 173 25 186 24 9 12 10 18 23 180 14 183 22 171 184 185 182 178 33 42 43 13 31 198 45 46 196 193</file>
+                    <file> 61 57 78 75 42 38 183 43 65 72 52 177 51 36 39 37 45 50 79 41 174 49 70 175 176 81 77 60 196 197 40 58 189 199 200 187 184</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\BLE_Beacon.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 185 99 90 91 92 171 172 167 169 168 165 162 163 164 148 98 110 111 27 28 142 89 87 103 147 121 93 124 88 122 123 113 85 182 56 44 190</file>
                 </tool>
             </inputs>
         </file>
@@ -1934,44 +2076,36 @@
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\osal.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\src\sleep.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_adc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\compiler.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\hal_types.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\asm.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\bluenrg_x_device.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h</file>
-            <file>$PROJ_DIR$\..\..\inc\Beacon_config.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h</file>
-            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_it.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\osal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\src\OTA_btl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
+            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
+            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Com.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Config.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Led.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\stack_user_cfg.pbi</file>
+            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\system_bluenrg1.pbi</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BLE_Beacon_main.pbi</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_it.pbi</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Exe\BLE_Beacon_Use_OTA_ServiceManager.out</file>
@@ -1997,6 +2131,51 @@
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Button.o</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\BlueNRG1_uart.o</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\sleep.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\stack_user_cfg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\inc\OTA_btl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_gap.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_flash.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\hal_types.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Led.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\asm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\system_bluenrg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG_x_device.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\link_layer.h</file>
+            <file>$PROJ_DIR$\..\..\inc\Beacon_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\ble_status.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_it.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\osal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\sleep.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_mft.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cm0.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_pka.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h</file>
+            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_conf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\system_bluenrg1.o</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\miscutil.pbi</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Com.o</file>
@@ -2052,51 +2231,6 @@
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\misc.pbi</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\OTA_btl.pbi</file>
             <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Button.pbi</file>
-            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Com.pbi</file>
-            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Config.pbi</file>
-            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\SDK_EVAL_Led.pbi</file>
-            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\stack_user_cfg.pbi</file>
-            <file>$PROJ_DIR$\Use_OTA_ServiceManager\Obj\system_bluenrg1.pbi</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_dma.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_flash.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_gpio.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_i2c.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_mft.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_pka.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_rtc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_spi.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_sysCtrl.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_uart.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\BlueNRG1_wdg.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\src\misc.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\OTA\src\OTA_btl.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Button.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Com.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Config.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_I2C.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\src\SDK_EVAL_Led.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\USER_Platform_Configuration.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\library\libbluenrg1_stack.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\cryptolib\libcrypto.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\src\stack_user_cfg.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Source\system_bluenrg1.c</file>
-            <file>$PROJ_DIR$\..\..\src\BLE_Beacon_main.c</file>
-            <file>$PROJ_DIR$\..\..\src\BlueNRG1_it.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\hal\inc\sleep.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Button.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_i2c.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_mft.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_rtc.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_spi.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Include\core_cm0.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_pka.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\ble_const.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\CMSIS\Device\ST\BlueNRG1\Include\BlueNRG2.h</file>
-            <file>$PROJ_DIR$\..\..\inc\BlueNRG1_conf.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\misc.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_gpio.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_uart.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_sysCtrl.h</file>
@@ -2116,13 +2250,21 @@
             <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Config.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_SPI.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_wdg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\bluenrg1_hal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\SDK_Eval_BlueNRG1\inc\SDK_EVAL_Com.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BLE_Application\layers_inc\sm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\Bluetooth_LE\inc\bluenrg1_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Library\BlueNRG1_Periph_Driver\inc\BlueNRG1_adc.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 53 46</file>
+                    <file> 45 38</file>
                 </tool>
             </outputs>
         </file>
@@ -2131,25 +2273,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 82</file>
+                    <file> 119</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 79</file>
+                    <file> 116</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 98</file>
+                    <file> 135</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 162 168 16 15 27 178 22 157 166 165 12 24 177 172 23 18 169 21 9 11 34 159 10 14 170 171</file>
+                    <file> 99 105 71 70 82 170 77 94 103 102 67 79 169 164 78 73 161 76 64 66 89 96 65 69 162 163</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 178</file>
+                    <file> 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 170</file>
                 </tool>
             </inputs>
         </file>
@@ -2158,13 +2300,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 77</file>
+                    <file> 114</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 20</file>
+                    <file> 75</file>
                 </tool>
             </inputs>
         </file>
@@ -2173,25 +2315,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 70</file>
+                    <file> 107</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 55</file>
+                    <file> 47</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 96</file>
+                    <file> 133</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 162 34 172 15 11 175 165 12 24 177 159 10 174 27 9 16 23 18 22 173 32 33</file>
+                    <file> 99 89 164 70 66 167 102 67 79 169 96 65 166 82 64 71 78 73 77 165 87 88</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 175 173 174 32 33</file>
+                    <file> 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 167 165 166 87 88</file>
                 </tool>
             </inputs>
         </file>
@@ -2200,25 +2342,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 107</file>
+                    <file> 144</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 76</file>
+                    <file> 113</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 94</file>
+                    <file> 131</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16 32 11 33 177 34 159 174 35</file>
+                    <file> 71 87 66 88 169 89 96 166 90</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 174 11 177 16 34 159 32 33 35</file>
+                    <file> 166 66 169 71 89 96 87 88 90</file>
                 </tool>
             </inputs>
         </file>
@@ -2227,25 +2369,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 108</file>
+                    <file> 145</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 68</file>
+                    <file> 60</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 91</file>
+                    <file> 128</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 34 27 15 166 177 22 157 174 168 159 11 37 155 175 16 154 162 24 172 23 18 169 21 32 33 165 12 9 10 14 170 171 173</file>
+                    <file> 89 82 70 103 169 77 94 166 105 96 66 181 92 167 71 91 99 79 164 78 73 161 76 87 88 102 67 64 65 69 162 163 165</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15 11 177 16 34 159 37 32 154 174 33 27 165 162 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 155 175 173</file>
+                    <file> 70 66 169 71 89 96 181 87 91 166 88 82 102 99 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 92 167 165</file>
                 </tool>
             </inputs>
         </file>
@@ -2254,44 +2396,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 109</file>
+                    <file> 146</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 58</file>
+                    <file> 50</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 90</file>
+                    <file> 127</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 165 12 15 16 22 27 162 24 177 172 23 18 43 9 11 34 159 10</file>
+                    <file> 102 67 70 71 77 82 99 79 169 164 78 73 187 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 43 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Use_OTA_ServiceManager\Exe\BLE_Beacon_Use_OTA_ServiceManager.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 53</file>
-                </tool>
-                <tool>
-                    <name>OBJCOPY</name>
-                    <file> 47</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 179 60 58 56 62 74 59 61 73 78 81 64 65 67 54 79 77 148 149 57 55 76 63 66 71 72 97 75 68 80 69 176 26 17 184</file>
+                    <file> 187 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2300,25 +2423,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 110</file>
+                    <file> 147</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 56</file>
+                    <file> 48</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 93</file>
+                    <file> 130</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 162 24 177 172 23 18 27 165 12 16 22 15 21 9 11 34 159 10</file>
+                    <file> 99 79 169 164 78 73 82 102 67 71 77 70 76 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 21 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 76 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2327,25 +2450,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 111</file>
+                    <file> 148</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 62</file>
+                    <file> 54</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 92</file>
+                    <file> 129</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 27 162 24 177 172 23 18 165 12 16 22 15 14 9 11 34 159 10</file>
+                    <file> 82 99 79 169 164 78 73 102 67 71 77 70 69 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 14 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 69 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2354,25 +2477,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 112</file>
+                    <file> 149</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 74</file>
+                    <file> 111</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 89</file>
+                    <file> 126</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 27 162 24 177 172 23 18 165 12 16 22 15 169 9 11 34 159 10</file>
+                    <file> 82 99 79 169 164 78 73 102 67 71 77 70 161 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 169 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 161 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2381,25 +2504,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 113</file>
+                    <file> 150</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 59</file>
+                    <file> 51</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 88</file>
+                    <file> 125</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 16 165 12 22 27 162 24 177 172 23 18 157 9 11 34 159 10</file>
+                    <file> 70 71 102 67 77 82 99 79 169 164 78 73 94 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 157 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 94 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2408,25 +2531,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 114</file>
+                    <file> 151</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 73</file>
+                    <file> 110</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 87</file>
+                    <file> 124</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 162 15 16 27 22 165 12 24 177 172 23 18 158 9 11 34 159 10</file>
+                    <file> 99 70 71 82 77 102 67 79 169 164 78 73 95 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 158 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 95 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2435,25 +2558,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 115</file>
+                    <file> 152</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 78</file>
+                    <file> 115</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 86</file>
+                    <file> 123</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 172 165 12 27 9 34 162 35 15 11 159 177 10 163 24 16 23 18 22</file>
+                    <file> 164 102 67 82 64 89 99 90 70 66 96 169 65 100 79 71 78 73 77</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 163 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 35</file>
+                    <file> 100 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 90</file>
                 </tool>
             </inputs>
         </file>
@@ -2462,25 +2585,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 116</file>
+                    <file> 153</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 81</file>
+                    <file> 118</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 85</file>
+                    <file> 122</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 162 24 177 172 23 18 27 165 12 16 22 15 160 9 11 34 159 10</file>
+                    <file> 99 79 169 164 78 73 82 102 67 71 77 70 97 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 160 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 97 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2489,25 +2612,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 117</file>
+                    <file> 154</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 64</file>
+                    <file> 56</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 84</file>
+                    <file> 121</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 16 165 12 22 27 162 24 177 172 23 18 161 9 11 34 159 10</file>
+                    <file> 70 71 102 67 77 82 99 79 169 164 78 73 98 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 161 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 98 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2516,25 +2639,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 118</file>
+                    <file> 155</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 65</file>
+                    <file> 57</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 106</file>
+                    <file> 143</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 27 165 12 24 177 172 23 18 162 16 22 15 171 9 11 34 159 10</file>
+                    <file> 82 102 67 79 169 164 78 73 99 71 77 70 163 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 171 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 163 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2543,25 +2666,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 119</file>
+                    <file> 156</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 67</file>
+                    <file> 59</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 105</file>
+                    <file> 142</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 16 27 162 22 165 12 24 177 172 23 18 170 9 11 34 159 10</file>
+                    <file> 70 71 82 99 77 102 67 79 169 164 78 73 162 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 170 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 162 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2570,25 +2693,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 120</file>
+                    <file> 157</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 54</file>
+                    <file> 46</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 101</file>
+                    <file> 138</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 165 12 24 177 172 23 18 27 162 16 22 15 36 9 11 34 159 10</file>
+                    <file> 102 67 79 169 164 78 73 82 99 71 77 70 180 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 36 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 180 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2597,25 +2720,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 121</file>
+                    <file> 158</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 57</file>
+                    <file> 49</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 103</file>
+                    <file> 140</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 165 12 24 177 172 23 18 27 162 16 22 15 168 9 11 34 159 10</file>
+                    <file> 102 67 79 169 164 78 73 82 99 71 77 70 105 64 66 89 96 65</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 168 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22</file>
+                    <file> 105 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77</file>
                 </tool>
             </inputs>
         </file>
@@ -2624,25 +2747,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 122</file>
+                    <file> 159</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 63</file>
+                    <file> 55</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 102</file>
+                    <file> 139</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 181 12 165 157 39 27 35 168 9 172 23 18 10 164 167 169 21 15 11 16 22 41 182 186 166 185 42 8 14 170 171 162 24 177 34 159 38 183 28 30 156 187 13 147 40 19</file>
+                    <file> 173 67 102 94 183 82 90 105 64 164 78 73 65 101 104 161 76 70 66 71 77 185 174 178 103 177 186 63 69 162 163 99 79 169 89 96 182 175 83 85 93 179 68 24 184 74</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 166 14 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 169 21 157 170 171 168 42 38 181 164 30 39 13 28 183 41 186 147 156 40 182 19 187 35 8 167 185</file>
+                    <file> 103 69 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 161 76 94 162 163 105 186 182 173 101 85 183 68 83 175 185 178 24 93 184 174 74 179 90 63 104 177</file>
                 </tool>
             </inputs>
         </file>
@@ -2651,25 +2774,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 123</file>
+                    <file> 160</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 66</file>
+                    <file> 58</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 104</file>
+                    <file> 141</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 171 166 165 12 186 172 27 147 9 34 162 21 19 15 11 159 177 10 14 170 40 156 24 16 23 18 22 169 157 168 182 187</file>
+                    <file> 163 103 102 67 178 164 82 24 64 89 99 76 74 70 66 96 169 65 69 162 184 93 79 71 78 73 77 161 94 105 174 179</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 156 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 186 147 40 182 19 187</file>
+                    <file> 93 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 178 24 184 174 74 179</file>
                 </tool>
             </inputs>
         </file>
@@ -2678,25 +2801,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 124</file>
+                    <file> 31</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 71</file>
+                    <file> 108</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 100</file>
+                    <file> 137</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 34 27 25 166 162 21 19 172 171 147 180 7 186 165 12 24 177 159 10 14 170 40 32 15 9 11 16 23 18 22 169 157 168 156 182 187</file>
+                    <file> 89 82 80 103 99 76 74 164 163 24 172 62 178 102 67 79 169 96 65 69 162 184 87 70 64 66 71 78 73 77 161 94 105 93 174 179</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 40 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 186 147 156 182 19 187 180 32 7 25</file>
+                    <file> 184 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 178 24 93 174 74 179 172 87 62 80</file>
                 </tool>
             </inputs>
         </file>
@@ -2705,25 +2828,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 125</file>
+                    <file> 32</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 72</file>
+                    <file> 109</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 99</file>
+                    <file> 136</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 27 166 162 22 157 187 186 16 15 168 156 165 12 24 177 172 23 18 169 21 182 9 11 34 159 10 14 170 171 147 40 19</file>
+                    <file> 82 103 99 77 94 179 178 71 70 105 93 102 67 79 169 164 78 73 161 76 174 64 66 89 96 65 69 162 163 24 184 74</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 186 147 156 40 182 19 187</file>
+                    <file> 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 178 24 93 184 174 74 179</file>
                 </tool>
             </inputs>
         </file>
@@ -2732,21 +2855,21 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 95</file>
+                    <file> 132</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 48</file>
+                    <file> 40</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 21 162 19 9 27 34 166 172 171 147 186 165 12 15 11 159 177 10 14 170 40 182 24 16 23 18 22 169 157 168 156 187</file>
+                    <file> 76 99 74 64 82 89 103 164 163 24 178 102 67 70 66 96 169 65 69 162 184 174 79 71 78 73 77 161 94 105 93 179</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 182 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 186 147 156 40 19 187</file>
+                    <file> 174 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 178 24 93 184 74 179</file>
                 </tool>
             </inputs>
         </file>
@@ -2755,25 +2878,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 126</file>
+                    <file> 33</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 75</file>
+                    <file> 112</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 49</file>
+                    <file> 41</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 170 166 159 177 186 162 15 11 10 14 27 40 165 12 9 34 172 21 171 147 19 24 16 23 18 22 169 157 168 156 182 187</file>
+                    <file> 162 103 96 169 178 99 70 66 65 69 82 184 102 67 64 89 164 76 163 24 74 79 71 78 73 77 161 94 105 93 174 179</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 186 147 156 40 182 187</file>
+                    <file> 74 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 178 24 93 184 174 179</file>
                 </tool>
             </inputs>
         </file>
@@ -2782,25 +2905,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 127</file>
+                    <file> 34</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 80</file>
+                    <file> 117</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 50</file>
+                    <file> 42</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16 6 15 18 177 38 11 34 159</file>
+                    <file> 71 61 70 73 169 182 66 89 96</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 38 15 11 177 16 34 159 18 6</file>
+                    <file> 182 70 66 169 71 89 96 73 61</file>
                 </tool>
             </inputs>
         </file>
@@ -2809,25 +2932,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 128</file>
+                    <file> 35</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 69</file>
+                    <file> 106</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 51</file>
+                    <file> 43</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 23 33 172 27 15 18 165 12 9 168 173 11 177 14 175 171 162 16 22 32 24 34 159 10 174</file>
+                    <file> 78 88 164 82 70 73 102 67 64 105 165 66 169 69 167 163 99 71 77 87 79 89 96 65 166</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 14 168 175 173 174 32 33 171</file>
+                    <file> 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 69 105 167 165 166 87 88 163</file>
                 </tool>
             </inputs>
         </file>
@@ -2836,25 +2959,25 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 44</file>
+                    <file> 36</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 60</file>
+                    <file> 52</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 52</file>
+                    <file> 44</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16 18 169 28 27 29 172 23 156 164 177 15 11 21 30 38 186 31 155 178 165 12 9 22 157 168 13 187 166 174 42 8 32 34 159 33 162 24 10 14 170 171 39 183 41 182 6 180 181 147 40 19</file>
+                    <file> 71 73 161 83 82 84 164 78 93 101 169 70 66 76 85 182 178 86 92 170 102 67 64 77 94 105 68 179 103 166 186 63 87 89 96 88 99 79 65 69 162 163 183 175 185 174 61 172 173 24 184 74</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 180 11 177 16 34 159 32 174 33 31 27 165 162 15 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 164 30 38 39 13 28 183 41 42 181 155 186 147 156 40 182 19 187 29 6 8 178</file>
+                    <file> 172 66 169 71 89 96 87 166 88 86 82 102 99 70 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 101 85 182 183 68 83 175 185 186 173 92 178 24 93 184 174 74 179 84 61 63 170</file>
                 </tool>
             </inputs>
         </file>
@@ -2863,25 +2986,44 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 45</file>
+                    <file> 37</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 61</file>
+                    <file> 53</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 83</file>
+                    <file> 120</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 14 183 10 15 11 178 159 177 170 27 38 30 164 165 12 9 34 172 162 21 171 39 41 166 42 24 16 23 18 22 169 157 168 13 28 181 31</file>
+                    <file> 69 175 65 70 66 170 96 169 162 82 182 85 101 102 67 64 89 164 99 76 163 183 185 103 186 79 71 78 73 77 161 94 105 68 83 173 86</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 31 27 165 162 15 11 177 16 34 159 24 172 23 9 12 10 18 22 166 14 169 21 157 170 171 168 164 30 38 39 13 28 183 41 42 181 178</file>
+                    <file> 86 82 102 99 70 66 169 71 89 96 79 164 78 64 67 65 73 77 103 69 161 76 94 162 163 105 101 85 182 183 68 83 175 185 186 173 170</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Use_OTA_ServiceManager\Exe\BLE_Beacon_Use_OTA_ServiceManager.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 171 52 50 48 54 111 51 53 110 115 118 56 57 59 46 116 114 25 26 49 47 113 55 58 108 109 134 112 60 117 106 168 81 72 176</file>
                 </tool>
             </inputs>
         </file>

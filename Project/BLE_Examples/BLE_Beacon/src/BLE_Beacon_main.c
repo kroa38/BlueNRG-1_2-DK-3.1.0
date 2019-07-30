@@ -20,6 +20,8 @@
 #define ADC_ENABLE()      (ADC_Cmd(ENABLE))
 #define ADC_CONFIGURATION()   (ADC_Configuration())
 #define ADC_CHECK_FLAG        (ADC_GetFlagStatus(ADC_FLAG_EOC))
+#define BLE_SENSOR_TYPE 0x02
+#define BLE_SENSOR_NUMBER 0x01
 #undef TEST_TONE
 /* Private define ------------------------------------------------------------*/
 #define BLE_BEACON_VERSION_STRING "1.1.0"
@@ -36,6 +38,13 @@ uint8_t uuid_buffer[30];
 //volatile uint32_t lSystickCounter=0;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
+
+#pragma location=".version"
+__root const uint8_t version[15] = {0x02, 0x01, 0x06, 26, AD_TYPE_MANUFACTURER_SPECIFIC_DATA,
+                                    0x4C, 0x00, 0x02, 0x15,
+                                    0x23, 0x32, 0xA4, 0xC2,
+                                    BLE_SENSOR_TYPE, BLE_SENSOR_NUMBER};
+
 void get_sensor_data(uint8_t);
 void ADC_Configuration(void);
 void ADC_NVIC_Configuration(void);
@@ -96,7 +105,7 @@ int main(void)
   Clock_Init();
   /* Identify BlueNRG-1 platform */
   SdkEvalIdentification();
- 
+
   /* Application demo Led Init */
   SdkEvalLedInit(LED1); //Activity led
   SdkEvalLedOff(LED1); 
@@ -105,6 +114,7 @@ int main(void)
   SdkEvalLedInit(DONE); //DONE PIN 
   SdkEvalLedOff(DONE);
   
+
   SdkEvalPushButtonInit(ILS_SENSOR); 
   SdkEvalPushButtonInit(ALERT_TMP117); 
   SdkEvalPushButtonInit(INT_TSL25911); 
@@ -125,8 +135,7 @@ int main(void)
   
     /* BlueNRG-1 stack tick */
   while(1)
-  {  
-    SdkEvalLedOn(DONE);
+  {   
     SdkEvalLedOn(LED2);
     get_sensor_data(SdkEvalPushButtonGetState(ILS_SENSOR)); 
     SdkEvalLedOff(LED2);
@@ -137,9 +146,10 @@ int main(void)
     BlueNRG_Sleep(SLEEPMODE_RUNNING, 0, 0);
     Clock_Wait(1000);   
     SdkEvalLedOff(LED1); 
-    SdkEvalLedOff(DONE);
     hci_le_set_advertise_enable(0x00); 
-    Clock_Wait(2000); 
+    SdkEvalLedOn(DONE);
+    Clock_Wait(100); 
+    SdkEvalLedOff(DONE);
   }
     
 }
@@ -273,25 +283,25 @@ void get_sensor_data(uint8_t ils_state)
   
   /******************* FILL UUID FRAME **************************/ 
 
-  uuid_buffer[0] = 0x02;
-  uuid_buffer[1] = 0x01;
-  uuid_buffer[2] = 0x06;
+  uuid_buffer[0] = version[0];
+  uuid_buffer[1] = version[1];
+  uuid_buffer[2] = version[2];
   
-  uuid_buffer[3] = 26;
-  uuid_buffer[4] = AD_TYPE_MANUFACTURER_SPECIFIC_DATA;
-  uuid_buffer[5] = 0x4C;
-  uuid_buffer[6] = 0x00;  
-  uuid_buffer[7] = 0x02;
-  uuid_buffer[8] = 0x15; 
-  // PAYLOAD  PREFIX (24bits)
-  uuid_buffer[9] = 0x23;
-  uuid_buffer[10] = 0x32;
-  uuid_buffer[11] = 0xA4;
-  uuid_buffer[12] = 0xC2;  
+  uuid_buffer[3] = version[3];
+  uuid_buffer[4] = version[4];
+  uuid_buffer[5] = version[5];
+  uuid_buffer[6] = version[6];  
+  uuid_buffer[7] = version[7];
+  uuid_buffer[8] = version[8]; 
+  // PAYLOAD  PREFIX (24bits) =  0x2332A4C2
+  uuid_buffer[9] = version[9];
+  uuid_buffer[10] = version[10];
+  uuid_buffer[11] = version[11];
+  uuid_buffer[12] = version[12];  
    // PAYLOAD  SENSOR TYPE
-  uuid_buffer[13] = 0x02;
+  uuid_buffer[13] = version[13];
   // PAYLOAD  SENSOR NUMBER
-  uuid_buffer[14] = 0x01; 
+  uuid_buffer[14] = version[14]; 
   // PAYLOAD  BATTERY VOLTAGE  :adc_value (5182 = 5.182V)
   uuid_buffer[15] = (uint8_t)(adc_value>>8 & 0xFF);
   uuid_buffer[16] = (uint8_t)(adc_value & 0xFF);
@@ -303,8 +313,8 @@ void get_sensor_data(uint8_t ils_state)
     
   // PAYLOAD LIMINOSITY TSL2591(1536 = 1536 RELATIVE ILLUMINANCE)
   tmp = (uint16_t)(lum);
-  uuid_buffer[19] = (uint8_t)(tmp>>8 & 0xFF);    // MAJOR
-  uuid_buffer[20] = (uint8_t)(tmp & 0xFF);       // MAJOR
+  uuid_buffer[19] = (uint8_t)(tmp>>8 & 0xFF);    
+  uuid_buffer[20] = (uint8_t)(tmp & 0xFF);       
   
   // PAYLOAD PRESSURE BME680 (9809 = 980.9Hpa)
   tmp = (uint16_t)(data.pressure/10);
@@ -317,13 +327,13 @@ void get_sensor_data(uint8_t ils_state)
 
   // PAYLOAD  TEMPERATURE TMP117 (375 = 27.5°C ;;; 1375 = 27.5°C + ILS_Sensor)
   if (!ils_state) temperature+=1000;
-  uuid_buffer[25] = (uint8_t)(temperature>>8 & 0xFF);  // MINOR
-  uuid_buffer[26] = (uint8_t)(temperature & 0xFF);     // MINOR  
+  uuid_buffer[25] = (uint8_t)(temperature>>8 & 0xFF);  // MAJOR
+  uuid_buffer[26] = (uint8_t)(temperature & 0xFF);     // MAJOR  
 
   // PAYLOAD HUMIDITY BME680  (3850 = 38.5% Hum)
-  tmp = (uint16_t)(data.humidity/10);
+  tmp = (uint16_t)(data.humidity/10);                   // MINOR
   uuid_buffer[27] = (uint8_t)(tmp>>8 & 0xFF);
-  uuid_buffer[28] = (uint8_t)(tmp & 0xFF);  
+  uuid_buffer[28] = (uint8_t)(tmp & 0xFF);              // MINOR
 
   //2's complement of the Tx power (-56dB)};
   uuid_buffer[29] = 0xC8;        //2's complement of the Tx power (-56dB)}; 
