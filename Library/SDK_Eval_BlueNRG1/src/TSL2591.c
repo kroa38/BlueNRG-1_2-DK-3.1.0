@@ -243,6 +243,8 @@ float TSL2591_calculateLux(uint16_t ch0, uint16_t ch1)
 /**************************************************************************/
 uint32_t TSL2591_getFullLuminosity (void)
 {
+  uint8_t tmp=0;
+  
   if (!_initialized) {
     if (!TSL2591_begin()) {
       return 0;
@@ -250,14 +252,15 @@ uint32_t TSL2591_getFullLuminosity (void)
   }
 
   // Enable the device
+    // Enable the device by setting the control bit to 0x01
   TSL2591_enable();
-
-  // Wait x ms for ADC to complete
-  for (uint8_t d=0; d<=_integration; d++)
+  Clock_Wait(80);               // wait less than min integration time
+  while(tmp==0)
   {
-    Clock_Wait(120);
+    Clock_Wait(1);
+    tmp = 0x01 & TSL2591_read8(TSL2591_COMMAND_BIT | TSL2591_REGISTER_DEVICE_STATUS);
   }
-
+    
   // CHAN0 must be read before CHAN1
   // See: https://forums.adafruit.com/viewtopic.php?f=19&t=124176
   uint32_t x;
@@ -335,7 +338,7 @@ void TSL2591_registerInterrupt(uint16_t lowerThreshold, uint16_t upperThreshold,
     @brief  Clear interrupt status
 */
 /**************************************************************************/
-void TSL2591_clearInterrupt()
+void TSL2591_clearInterrupt(void)
 {
   if (!_initialized) {
     if (!TSL2591_begin()) {

@@ -130,7 +130,7 @@
  * @brief BOR default configuration 
  */
 #ifndef BOR_CONFIG
-#define BOR_CONFIG BOR_ON
+#define BOR_CONFIG BOR_OFF
 #endif
 
 /**

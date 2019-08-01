@@ -1277,6 +1277,7 @@
                     <state>HS_SPEED_XTAL=HS_SPEED_XTAL_32MHZ</state>
                     <state>USER_BUTTON=BUTTON_1</state>
                     <state>USER_DEFINED_PLATFORM=USER_EVAL_PLATFORM</state>
+                    <state>BOR_CONFIG=BOR_OFF</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
@@ -2323,6 +2324,7 @@
                     <state>HS_SPEED_XTAL=HS_SPEED_XTAL_32MHZ</state>
                     <state>USER_BUTTON=BUTTON_1</state>
                     <state>USER_DEFINED_PLATFORM=USER_EVAL_PLATFORM</state>
+                    <state>BOR_CONFIG=BOR_OFF</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>

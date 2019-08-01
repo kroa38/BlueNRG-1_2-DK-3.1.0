@@ -234,7 +234,7 @@ tsl2591Gain_t;
   /* Unified Sensor API Functions */  
   uint8_t TSL2591_getEvent  ( sensors_event_t* );
   void TSL2591_getSensor ( sensor_t* );
-
+  void TSL2591_clearInterrupt(void);
 // private:
   //void      TSL2591_write8  ( uint8_t r);
   void      TSL2591_write8  ( uint8_t r, uint8_t v );

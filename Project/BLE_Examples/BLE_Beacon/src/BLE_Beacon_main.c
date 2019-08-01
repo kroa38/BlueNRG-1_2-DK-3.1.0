@@ -112,6 +112,9 @@ int main(void)
   SdkEvalIdentification();
 
   /* Application demo Led Init */
+  SdkEvalLedInit(TEST); //Test_pin init 
+  SdkEvalLedOff(TEST);  
+  SdkEvalLedPulse(TEST);  
   SdkEvalLedInit(LED1); //Activity led
   SdkEvalLedOff(LED1); 
   SdkEvalLedInit(LED2); //Activity led
@@ -153,7 +156,11 @@ int main(void)
     SdkEvalLedOff(LED1); 
     hci_le_set_advertise_enable(0x00); 
     SdkEvalLedOn(DONE);
-    Clock_Wait(1000); 
+    
+    for(uint8_t i=0; i<100; i++)                // wait 15min 
+    {
+      Clock_Wait(9000); 
+    }
     SdkEvalLedOff(DONE);
   }
     
@@ -211,8 +218,9 @@ void get_sensor_data(uint8_t ils_state)
   struct bme680_field_data data;
   struct bme680_dev gas_sensor;
   uint16_t adc_value; 
-
+ 
 /******************* GET BATTERY VOLTAGE *********************/   
+  SdkEvalLedPulse(TEST);  
   /* ADC Initialization */
   ADC_CONFIGURATION();
   /* Start new conversion */
@@ -222,7 +230,8 @@ void get_sensor_data(uint8_t ils_state)
   adc_value = (uint16_t)(2000*ADC_GetConvertedData(xADC_InitType.ADC_Input, xADC_InitType.ADC_ReferenceVoltage)); 
   
 /******************* GET DATA FROM BME680 *********************/    
-    
+  SdkEvalLedPulse(TEST); 
+  
   gas_sensor.dev_id = BME680_I2C_ADDR_PRIMARY;
   gas_sensor.intf = BME680_I2C_INTF;
   gas_sensor.read = &i2c_read;
@@ -259,21 +268,25 @@ void get_sensor_data(uint8_t ils_state)
   /* Set the power mode */
   rslt = bme680_set_sensor_mode(&gas_sensor);
   gas_sensor.tph_sett.os_hum = BME680_OS_2X;
+
+  SdkEvalLedPulse(TEST);    
+
   Clock_Wait(150);
   bme680_get_profile_dur(&meas_period, &gas_sensor);
   rslt = bme680_get_sensor_data(&data, &gas_sensor);
   rslt = bme680_set_sensor_mode(&gas_sensor);
-   
   }
  
   /******************* GET DATA FROM TMP117 *********************/
-
+  SdkEvalLedPulse(TEST);  
   TMP117_SetConfig(C15mS5,AVE8,DATA,ONESHOT,ACTIVE_H);
   Clock_Wait(1);
   while(SdkEvalPushButtonGetState(ALERT_TMP117) == RESET);
   temperature = (uint16_t)(TMP117_getTemperature()*10+100);
   asm("nop"); 
   /******************* GET DATA FROM TSL2591 *********************/  
+  
+  SdkEvalLedPulse(TEST);
   
   TSL2591_begin();
   TSL2591_getSensor(&sensor);
@@ -288,6 +301,8 @@ void get_sensor_data(uint8_t ils_state)
   
   /******************* FILL UUID FRAME **************************/ 
   
+  SdkEvalLedPulse(TEST);  
+
 #if ENABLE_FLAGS_AD_TYPE_AT_BEGINNING
   uuid_buffer[0] = version[0];
   uuid_buffer[1] = version[1];
@@ -303,25 +318,26 @@ void get_sensor_data(uint8_t ils_state)
   uuid_buffer[9-vsize] = version[9];
   uuid_buffer[10-vsize] = version[10];
   uuid_buffer[11-vsize] = version[11];
-  uuid_buffer[12-vsize] = version[12];  
+  uuid_buffer[12-vsize] = version[12]; 
+  
    // PAYLOAD  SENSOR TYPE
   uuid_buffer[13-vsize] = version[13];
   // PAYLOAD  SENSOR NUMBER
   uuid_buffer[14-vsize] = version[14]; 
+  
   // PAYLOAD  BATTERY VOLTAGE  :adc_value (5182 = 5.182V)
   uuid_buffer[15-vsize] = (uint8_t)(adc_value>>8 & 0xFF);
   uuid_buffer[16-vsize] = (uint8_t)(adc_value & 0xFF);
+   
+  // PAYLOAD LIMINOSITY TSL2591(1536 = 1536 RELATIVE ILLUMINANCE)
+  tmp = (uint16_t)(lum);
+  uuid_buffer[17-vsize] = (uint8_t)(tmp>>8 & 0xFF);    
+  uuid_buffer[18-vsize] = (uint8_t)(tmp & 0xFF);       
  
   // PAYLOAD  TEMPERATURE BME680 (374 = 27.4°C)
   tmp = (uint16_t)(data.temperature+1000.0)/10;
-  uuid_buffer[17-vsize] = (uint8_t)(tmp>>8 & 0xFF);
-  uuid_buffer[18-vsize] = (uint8_t)(tmp & 0xFF);
-    
-  // PAYLOAD LIMINOSITY TSL2591(1536 = 1536 RELATIVE ILLUMINANCE)
-  tmp = (uint16_t)(lum);
-  uuid_buffer[19-vsize] = (uint8_t)(tmp>>8 & 0xFF);    
-  uuid_buffer[20-vsize] = (uint8_t)(tmp & 0xFF);       
-  
+  uuid_buffer[19-vsize] = (uint8_t)(tmp>>8 & 0xFF);
+  uuid_buffer[20-vsize] = (uint8_t)(tmp & 0xFF);
   // PAYLOAD PRESSURE BME680 (9809 = 980.9Hpa)
   tmp = (uint16_t)(data.pressure/10);
   uuid_buffer[21-vsize] = (uint8_t)(tmp>>8 & 0xFF);
@@ -339,12 +355,13 @@ void get_sensor_data(uint8_t ils_state)
   // PAYLOAD HUMIDITY BME680  (3850 = 38.5% Hum)
   tmp = (uint16_t)(data.humidity/10);                   // MINOR
   uuid_buffer[27-vsize] = (uint8_t)(tmp>>8 & 0xFF);
-  uuid_buffer[28-vsize] = (uint8_t)(tmp & 0xFF);              // MINOR
+  uuid_buffer[28-vsize] = (uint8_t)(tmp & 0xFF);        // MINOR
 
   //2's complement of the Tx power (-56dB)};
   uuid_buffer[29-vsize] = 0xC8;        //2's complement of the Tx power (-56dBm)}; 
   asm("nop");   
-
+  
+  SdkEvalLedPulse(TEST);  
   
 }
 

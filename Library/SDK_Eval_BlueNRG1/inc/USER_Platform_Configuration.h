@@ -78,7 +78,7 @@
 #define SDK_EVAL_LED1_PIN             GPIO_Pin_1
 #define SDK_EVAL_LED2_PIN             GPIO_Pin_0   
 #define SDK_EVAL_DONE_PIN             GPIO_Pin_2
- 
+#define SDK_EVAL_TEST_PIN             GPIO_Pin_3 
 
 
 /**
@@ -95,8 +95,6 @@
 
 #define SDK_EVAL_SPI_PERIPH_SCLK_PIN              GPIO_Pin_0
 #define SDK_EVAL_SPI_PERIPH_SCLK_MODE             Serial0_Mode
-
-#define SDK_EVAL_IRQ_SENSOR_PIN                   GPIO_Pin_12
 
 
 #ifdef __cplusplus

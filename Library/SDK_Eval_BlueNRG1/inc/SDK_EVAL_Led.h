@@ -54,7 +54,8 @@ typedef enum {
   LED1 = 0,
   LED2 = 1,
   LED3 = 2,
-  DONE = 3  
+  DONE = 3,  
+  TEST = 4  
 } SdkEvalLed;
 
 /**
@@ -95,6 +96,7 @@ void SdkEvalLedInit(SdkEvalLed xLed);
 void SdkEvalLedOn(SdkEvalLed xLed);
 void SdkEvalLedOff(SdkEvalLed xLed);
 void SdkEvalLedToggle(SdkEvalLed xLed);
+void SdkEvalLedPulse(SdkEvalLed xLed);
 FlagStatus SdkEvalLedGetState(SdkEvalLed xLed);
 
 /**

@@ -100,6 +100,9 @@ uint32_t Get_LedGpioPin(SdkEvalLed xLed)
     case(DONE):
       led_pin = SDK_EVAL_DONE_PIN;
       break;
+    case(TEST):
+      led_pin = SDK_EVAL_TEST_PIN;
+      break;      
   default:
       led_pin = SDK_EVAL_LED1_PIN;
       break;
@@ -196,6 +199,12 @@ void SdkEvalLedToggle(SdkEvalLed xLed)
   GPIO_ToggleBits(Get_LedGpioPin(xLed));
 }
 
+void SdkEvalLedPulse(SdkEvalLed xLed)
+{
+  GPIO_ToggleBits(Get_LedGpioPin(xLed));
+  Clock_Wait(1);
+  GPIO_ToggleBits(Get_LedGpioPin(xLed));
+}
 /**
  * @brief  Returns the status of a specified led.
  * @param  xLed Specifies the Led to be read @ref SdkEvalLed.
